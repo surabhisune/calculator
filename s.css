@@ -1,0 +1,67 @@
+html{
+  font-size: 62.5%;
+  }
+  .formstyle{
+  text-align: center;
+}
+form{
+  margin: auto;
+  display: inline-block;
+    border: 0.5rem solid black;
+    border-radius: 1.0rem;
+    background: black;
+}
+#final{
+  width:22.2rem;
+  padding: 2.0rem;
+}
+input{
+  width:8.3rem;
+  padding: 0.8rem;
+  margin:0.2rem;
+  cursor:pointer;
+  background-color: #dddddd;
+  font-size: 3.0rem;
+  border-radius: 1.0rem;
+  border: 0.2rem solid black;
+}
+input:hover{
+  border: 0.2rem solid #423144; ;
+  background-color: white;
+}
+
+#clear{
+  width:26.5rem;
+
+}
+#clear:hover{
+  border: 0.2rem solid #423144;
+  background-color: white;
+}
+p{
+  text-align:center;
+
+}
+@media only screen and (max-width:2652px){
+html{
+  font-size:55%;
+
+}
+}
+
+@media only screen and (max-width:938px){
+html{
+  font-size:45%;
+
+}
+}
+@media only screen and (max-width:258px){
+html{
+  font-size:30%;
+}
+}
+@media only screen and (max-width:160px){
+html{
+  font-size:20%;
+}
+}
